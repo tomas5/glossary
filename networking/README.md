@@ -1,4 +1,4 @@
-# glossary of terms
+# networking
 
 ## Internet
 

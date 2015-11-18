@@ -27,3 +27,23 @@ SSL proxy server allows anonymous web browsing (cannot trace your real IP) throu
 Server Name Indication is an extension to the TLS computer networking protocol by which a client indicates which hostname it is attempting to connect to at the start of the handshaking process.
 
 This allows a server to present multiple certificates on the same IP addresses and hence allows multiple secure (HTTPS) websites to be served of the same IP address.
+
+## DNS
+
+The Domain Name System - a hierarchical distributed naming system for computers, services, or any resource connected to the Internet or a private network.
+
+## CNAME record
+
+A Canonical Name record.
+CNAME record - a type of resource record in the DNS used to specify that a domain name is an alias for another domain, the "canonical" domain.
+
+[RFC 1035: CNAME](http://tools.ietf.org/html/rfc1035#page-12)
+
+## A record
+
+The A in A record stands for Address. Simply put, an A record is used to find the address of a computer connected to the internet from a name.
+
+[RFC 1035: DOMAIN NAMES - IMPLEMENTATION AND SPECIFICATION](https://tools.ietf.org/html/rfc1035)
+
+
+

@@ -1,5 +1,9 @@
 # security
 
+## CA
+
+Certificate/Certification Authority - is an entity that issues digital certificates.
+
 ## PKI
 
 A Public Key Infrastructure.
@@ -60,7 +64,7 @@ Elliptic Curve Cryptography is a family of public-key algorithms that can provid
 Public Key Cryptographic Standards - standards to promote the use of the cryptography techniques.
 
 Format   | Meaning
--------- | -------
+-------- | :-------
 PKCS #7  | Contains certificate for the primary domain name as well as the intermediate and root certificate in one file
 PKCS #8  | Private key
 PKCS #10 | Certificate Signing Request (CSR)

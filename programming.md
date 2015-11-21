@@ -19,3 +19,8 @@ while
 JavaScript is an interpreted language where its files have extension of '.js'
 
 Java can be used for designing standalone applications as well as web pages also while JavaScript can only be used for designing web pages.
+
+[Java vs. JavaScript: Similarities and Differences](http://www.htmlgoodies.com/beyond/javascript/article.php/3470971)
+
+[Java vs. JavaScript: What’s the Difference?](http://www.seguetech.com/blog/2013/02/15/java-vs-javascript)
+

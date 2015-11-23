@@ -8,6 +8,10 @@ The Internet is the hardware network that allows us to transmit data.
 
 The Web is a collection of linked hypertext documents.
 
+## IP address
+
+An Internet Protocol address (IP address) is a numerical label assigned to each device (e.g., computer, printer) participating in a computer network.
+
 ## Protocol
 
 Protocol usually refers to a set of rules that define an exact format for communication between systems For example the HTTP protocol defines the format for communication between web browsers and web servers.
@@ -36,6 +40,7 @@ The Domain Name System - a hierarchical distributed naming system for computers,
 
 A Canonical Name record.
 CNAME record - a type of resource record in the DNS used to specify that a domain name is an alias for another domain, the "canonical" domain.
+For example, beta.domain.com points to the DNS A record for www.domain.com, which points to the IP-address. Then, if the IP-address ever changes, one only has to record the change in one place within the network: in the DNS A record. This is the reason why CNAME records must always point to another domain name, never directly to an IP-address.
 
 [RFC 1035: CNAME](http://tools.ietf.org/html/rfc1035#page-12)
 
@@ -45,5 +50,12 @@ The A in A record stands for Address. Simply put, an A record is used to find th
 
 [RFC 1035: DOMAIN NAMES - IMPLEMENTATION AND SPECIFICATION](https://tools.ietf.org/html/rfc1035)
 
+## API
 
+Application Programming Interface - the rules which developers follow to communicate with outside world from inside their own programs or websites.
+
+
+## SOAP
+
+Simple Object Access Protocol - An XML (Extensible Mark-up Language) specification which is used to communicate with the API.
 

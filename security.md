@@ -77,7 +77,7 @@ Privacy-enhanced Electronic Mail.
 
 This is a Base64 encoded DER certificate. Certificates in this format are used for web servers as they can be read
 easily in text editors, such as Notepad. It contains ASCII (Base64) armored data prefixed with a "-----BEGIN
-CERTIFICATE REQUEST-----" and "-----END CERTIFICATE REQUEST-----" lines.
+CERTIFICATE-----" and "-----END CERTIFICATE-----" lines.
 
 ## PFX
 
@@ -107,16 +107,7 @@ Online Certificate Status Protocol - An Internet protocol used to check the revo
 
 ## S/MIME
 
-Secure/Multi-purpose Internet Mail Extensions - Public key encryption and signing of MIME data, related to our PersonalSign product.
-
-## API
-
-Application Programming Interface - the rules which developers follow to communicate with outside world from inside their own programs or websites.
-
-
-## SOAP
-
-Simple Object Access Protocol - An XML (Extensible Mark-up Language) specification which is used to communicate with the API.
+Secure/Multi-purpose Internet Mail Extensions - Public key encryption and signing of MIME data; by using client digital certicates.
 
 ## OpenSSL
 

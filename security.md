@@ -142,3 +142,9 @@ The purpose of an SPF record is to prevent spammers from sending messages with f
 ## DKIM
 
 DomainKeys Identified Mail (DKIM) is an email validation system designed to detect email spoofing by providing a mechanism to allow receiving mail exchangers to check that incoming mail from a domain is authorized by that domain's administrators and that the email (including attachments) has not been modified during transport.
+
+## PCI
+
+The Payment Card Industry Data Security Standard (PCI DSS) is a set of requirements designed to ensure that ALL companies that process, store or transmit credit card information maintain a secure environment.
+
+[PCI FAQS](https://www.pcicomplianceguide.org/pci-faqs-2/)

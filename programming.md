@@ -24,3 +24,7 @@ Java can be used for designing standalone applications as well as web pages also
 
 [Java vs. JavaScript: What’s the Difference?](http://www.seguetech.com/blog/2013/02/15/java-vs-javascript)
 
+## Metadata
+
+Is data about data that identifies where the actual data blocks are stored.
+

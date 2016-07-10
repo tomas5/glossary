@@ -10,6 +10,27 @@ T-SQL expands on the SQL standard to include local variables, various support fu
 
 SSMS / SQL Server Management Studio
 
+## DDL
+
+Data Definition Language. For creating a database e.g. CREATE, DROP, ALTER, RENAME, COMMENT
+
+## DCL
+
+Data Control Language. For administering a database e.g. GRANT, DENY, USE 
+
+#### For example, assume you wish to grant the user the ability to retrieve information from the specific table in a database called dbo (default database name)
+```sql
+GRANT SELECT, INSERT, UPDATE, DELETE ON dbo.table_name TO [domain\user_name];
+```
+
+## DML
+
+Data Manipulation Language. To access a database e.g. SELECT, INSERT, UPDATE, DELETE
+
+## Index
+
+An index is one way of providing quicker access to data. Without indexes we will have to read the entire table to find what we are loading for.
+
 ## PODS
 
 Pipeline Open Data Structure - a relational data model devised for implementing on RDBMS (Relational Database Management System) platform like Microsoft SQL Server. 
@@ -33,6 +54,12 @@ Pipeline Open Data Structure - a relational data model devised for implementing 
 
 NOTE:
 CONTROL_ID: All ASP.NET server controls include an ID property that uniquely identifies the control and is the means by which the control is programmatically accessed in the code-behind class.
+
+## 3NF
+
+Third Normal Form (3NL)
+A relation that is in 1NF and 2NF and in which no non-primary key attribute is transitively dependent on the primary key.
+Based on concept of transitive dependency: A, B and C are attributes of a relation such that if A -> B and B -> C then C is transitively dependent on A through B (provided that A is not functionally dependent on B or C)
 
 
 ## Basics
